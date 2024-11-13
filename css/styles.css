@@ -1,0 +1,34 @@
+body{
+    font-family: garamond;
+    font-size: 180%;
+}
+
+header{
+    background-color: lightgoldenrodyellow;
+}
+nav{
+    background-color: rgb(19, 11, 0);
+}
+main{
+    background-color: hotpink;
+    font-size: 120%;
+}
+footer{
+    background-color: rgb(19, 11, 0);
+    color:aquamarine
+}
+li{
+    display:inline-block;
+    width:20%;
+}
+h1{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:indigo
+}
+p{
+    line-height: 150%;
+}
+a:link, a:visited{
+    color: white;
+}
