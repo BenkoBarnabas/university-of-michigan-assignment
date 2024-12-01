@@ -5,12 +5,27 @@ body{
 header{
     background-color: lightgoldenrodyellow;
 }
+header > a{
+    position: relative;
+    left: -2000px;
+}
+header > a:focus{
+    left:0px;
+}
 nav{
-    background-color: aquamarine;
+    background-color: rgb(127, 255, 148);
+    border-radius: 15%;
+    border: 2px solid black;
 }
 nav img{
     width:10%;
     display:inline-block;
+}
+img{
+    padding: 1px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    box-sizing: border-box;
 }
 main{
     background-color: hotpink;
@@ -45,6 +60,9 @@ a:link, a:visited{
     grid-template-columns: auto auto;
     align-items: center;
 }
+.flex img:nth-child(odd){
+    border-radius: 50%;
+}
 .grid img{
     box-sizing: border-box;
     padding:5%;
@@ -58,4 +76,13 @@ a:link, a:visited{
 .flex img{
     width: 19%
 }
-
+#baconpic{
+    width:15%;
+    display: block;
+    margin:auto;
+    transition:all 2s ease;
+}
+#baconpic:hover{
+    rotate: 360deg;
+    scale: 180%
+}
